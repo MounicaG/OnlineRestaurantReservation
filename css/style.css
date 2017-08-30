@@ -1,0 +1,228 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Dec 27, 2015, 3:32:15 PM
+    Author     : Mounica
+*/
+body{
+    background-image: url("../Images/back.jpg");
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.textbox{
+    position:absolute;
+    left:100px;
+    height:20px;
+    width:200px;
+}
+.textarea{
+    position:absolute;
+    left:100px;
+    height:30px;
+    width:200px;
+}
+#assign{
+    position:absolute;
+    left:650px;
+    top:325px;
+
+}
+#assign1{
+    position:absolute;
+    left:800px;
+    top:325px;
+
+}
+#bordertable{
+    border-collapse: collapse;
+
+}
+#bordertable1{
+    position:absolute;
+    top:300px;
+    left:300px;
+    border-collapse: collapse;
+
+}
+#icon{
+    position:absolute;
+    top:20px;
+}
+#contact{
+    position:absolute;
+    top:200px;
+    left:300px;
+}
+#details{
+    position: absolute;
+    top:500px;
+    left:800px;
+}
+#profile{
+    position:absolute;
+    top:180px;
+    left:300px;
+}
+.button{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    width:120px;
+    height:30px;
+}
+#top{
+    position: absolute;
+    top:200px;
+    left:400px;
+}
+#create{
+    position: absolute;
+    top:200px;
+    left:200px;
+}
+.btns{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    width:150px;
+    height:40px;
+
+}
+#viewList{
+    position:absolute;
+    top:170px;
+    left:300px;
+}
+#LoginPage{
+    position: absolute;
+    top:200px;
+    left:400px;
+}
+#login{
+    text-decoration: none;
+    position:absolute;
+    left:1200px;
+}
+#allres,#allres1{
+    position: absolute;
+    top:200px;
+    left:350px;
+}
+.links{
+    float:left;
+    text-decoration: none;
+    padding:50px;
+}
+#data{
+    position: absolute;
+    top:300px;
+    left:300px;
+}
+#reservation{
+    position: absolute;
+    top:200px;
+    left:300px;
+}
+#modify{
+    position: absolute;
+    top:200px;
+    left:300px;
+}
+#res{
+    position: absolute;
+    top:200px;
+    left:300px;
+    padding:20px;
+}
+#title{
+    color:blue;
+    text-align: center;
+}
+select{
+    width:150px;
+    height:30px;
+    background-color: #FFF;
+    z-index:2;
+}
+#images{
+    float:left;
+}
+
+#edit{
+    position: absolute;
+    top:200px;
+    left:400px;
+}
+#mimg
+{
+    position:absolute;
+    top:200px;
+    left:200px;
+    width:350px;
+}
+#aligntext,#aligntext1{
+    position: absolute;
+    top:150px;
+    left:300px;
+    color: red;
+}
+#color,#listofall,#seattitl{
+    color: red;
+}
+#seattitl{
+    color:red;
+    text-align: center;
+    position: absolute;
+    top:150px;
+    left:480px;
+}
+#seating{
+    position:absolute;
+    top:250px;
+    left:200px;
+}
+#seating1{
+    position:absolute;
+    top:250px;
+    left:700px;
+}
+#abt,#desc{
+    position: absolute;
+    top:200px;
+    left:300px;
+    width:350px;
+    border-style: solid;
+    border-width: 1px;
+}
+#subtitle{
+    position:absolute;
+    left:850px;
+    top:30px;
+    color:red;
+}
+#find{
+    background-color: red;
+    color:white;
+    width:150px;
+    height:30px;
+
+}
+#text_area{
+    position: absolute;
+    top:500px;
+    left:200px;
+    color:red;
+}
+#footer{
+    position:absolute;
+    bottom: 0px;
+    width:100%;
+}

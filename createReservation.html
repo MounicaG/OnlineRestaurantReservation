@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title>Indian Cusine</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+<header id="header">
+    <img src="Images/icon.png" alt="" id="icon" width="50" height="50"/>
+    <h1 id="title"> <i>Novotel Indian Cusine</i></h1>
+    <h2 id="subtitle"><i> Experience The Taste...</i> </h2>
+    <nav id="links">
+        <a href="Home.html" class="links"> Home </a>
+        <a href="aboutus.html" class="links"> About Us </a>
+        <a href="Reserve.html" class="links"> Reservation </a>
+        <a href="ContactUs.html" class="links"> Contact </a>
+    </nav>
+    <a href="login.html" id="login">Login as Owner</a>
+</header>
+
+
+<div id="reservation">
+    <select class="dropdown">
+        <option value="2ppl"> 2 people</option>
+        <option value="2ppl"> 3 people</option>
+        <option value="2ppl"> 4 people</option>
+        <option value="2ppl"> 5 people</option>
+        <option value="2ppl"> 6 people</option>
+        <option value="2ppl"> 7 people</option>
+        <option value="2ppl"> 8 people</option>
+        <option value="2ppl"> 9 people</option>
+        <option value="2ppl"> 10 people</option>
+    </select>
+    Date <input type="date" value=""/>
+    <select class="dropdown">
+        <option value="2ppl"> 7:00 PM</option>
+        <option value="2ppl"> 7:30 PM</option>
+        <option value="2ppl"> 8:00 PM</option>
+        <option value="2ppl"> 8:30 PM</option>
+        <option value="2ppl"> 9:00 PM</option>
+        <option value="2ppl"> 9:30 PM</option>
+        <option value="2ppl"> 10:00 PM </option>
+        <option value="2ppl"> 10:30 PM </option>
+        <option value="2ppl"> 11:00 PM </option>
+    </select>
+    <button type="button" id="find"> Find table </button>
+</div>
+<div id="tabledetails">
+    <table border="1" id="bordertable1" cellspacing="1" cellpadding="10">
+        <tr>
+            <td>
+                Table No:
+            </td>
+            <td>
+                Capacity
+            </td>
+            <td>
+                Available till
+            </td>
+            <td>
+                Action
+            </td>
+        </tr>
+        <tr>
+            <td>
+                10
+            </td>
+            <td>
+                12
+            </td>
+            <td>
+                9:00 PM
+            </td>
+            <td>
+                <input type="button" value="Book"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                6
+            </td>
+            <td>
+                8
+            </td>
+            <td>
+                8:00 PM
+            </td>
+            <td>
+                <input type="button" value="Book"/>
+            </td>
+        </tr>
+    </table>
+</div>
+<footer id="footer">
+    <p>&copy;Novotel Indian Cuisine</p>
+</footer>
+</body>
+</html>
